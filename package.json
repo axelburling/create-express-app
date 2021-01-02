@@ -1,0 +1,35 @@
+{
+  "name": "@aki_dev/create-express-app",
+  "version": "1.0.2",
+  "description": "Express boilerplate",
+  "main": "src/cli.js",
+  "bin": {
+    "@aki_dev/create-express-app": "bin/create-express-app",
+    "create-express-app": "bin/create-express-app"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "CLI",
+    "create-express-app"
+  ],
+  "files": [
+    "bin/",
+    "src/",
+    "templates/",
+    "/README.md"
+  ],
+  "author": "Axel Burling",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "execa": "^5.0.0",
+    "inquirer": "^7.3.3",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0"
+  }
+}
