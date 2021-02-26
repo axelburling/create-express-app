@@ -1,6 +1,6 @@
 {
   "name": "@aki_dev/create-express-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Express boilerplate",
   "main": "src/cli.js",
   "bin": {
@@ -22,6 +22,7 @@
   ],
   "author": "Axel Burling",
   "license": "ISC",
+  "repository": "https://github.com/axelburling/create-express-app.git",
   "dependencies": {
     "arg": "^5.0.0",
     "chalk": "^4.1.0",

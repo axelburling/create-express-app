@@ -9,9 +9,9 @@ app.use(cors());
 app.use(morgan("dev"));
 app.use(helmet());
 
-app.get("/", (req, res) => {
-  res.send("It works").json("It works");
+app.get("/", (_, res) => {
+  res.send("It works");
 });
 
 const port = process.env.PORT || 8080;
-app.listen(port, () => console.log(`Runing on http://localhost:${port}`));
+app.listen(port, () => console.log(`Running on http://localhost:${port}`));
